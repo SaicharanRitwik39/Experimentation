@@ -1,0 +1,14 @@
+name: My Custom Action
+
+on:
+  push:
+    branches:
+      - main  # Trigger action when changes are pushed to the main branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 22f3000742@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
